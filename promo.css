@@ -1,0 +1,74 @@
+
+    .btn.btn-primary.promo-filter-btn {
+        margin: 5px;
+        text-transform: uppercase;
+    }
+    .promo-filter-btn.active {
+        background-color: #666;
+        color: white;
+    }
+
+    
+    .promo-badge P A:hover {
+        color: #898989 !important;
+    }
+    .promo-badge H3 A:visited,
+    .promo-badge P A:visited,
+    .npi H3 A:visited {
+        color: #f6f6f6;
+    }
+    .promo-filter-center {
+        text-align: center;
+    }
+    .card .card-body {
+        height: 155px;
+        overflow: hidden;
+    }
+    .span3 {
+        height: 210px;
+        width: 225px;
+        margin: 5px 5px 30px 5px;
+    }
+    .promo-badge {
+        background-color: #333;
+        width: 100%;
+        height: 140px;
+        color: #fff;
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-top: -20px;
+    }
+    .promo-badge H3 A:hover {
+        background-color: #898989 !important;
+    }
+    .promo-badge H3 A {
+        background-image: url("/content/dam/LifeTech/global/ux-src/bg-promo-badge.png");
+        background-repeat: no-repeat;
+        background-position: right -3px;
+        text-transform: none;
+        line-height: 2;
+        font-size: 18px;
+        text-indent: 15px;
+        background-color: #555;
+        width: auto;
+        display: inline-block;
+        padding-right: 40px;
+        margin-top: 0;
+        color: #fff;
+    }
+    .promo-badge p {
+        font-size: 15px;
+        line-height: 21px;
+        margin-left: 5px;
+    }
+    .promo-badge P A {
+        display: block;
+        margin: 0px 10px 10px;
+        color: #f6f6f6;
+    }
+    .promo-badge P A:active {
+        outline: none !important;
+        outline-offset: none !important;
+        box-shadow: none !important;
+    }
