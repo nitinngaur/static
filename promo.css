@@ -1,5 +1,6 @@
-
-    .btn.btn-primary.promo-filter-btn {
+<style>
+   
+.btn.btn-primary.promo-filter-btn {
         margin: 5px;
         text-transform: uppercase;
     }
@@ -72,3 +73,5 @@
         outline-offset: none !important;
         box-shadow: none !important;
     }
+
+</style>
