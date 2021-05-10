@@ -1,4 +1,3 @@
-<script>
 
 $(document).on("click", ".promo-filter-btn", function () {
     $(".promo-filter-btn").removeClass("active");
@@ -13,6 +12,3 @@ function filterPromoOffers(i) {
     var o = ".filterDiv.".concat(i);
     "all" === i ? ($(o).hide(), $(".filterDiv").show()) : ($(".filterDiv").hide(), $(o).show());
 }
-
-
-</script>
